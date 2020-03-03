@@ -6,8 +6,6 @@ import com.github.javafaker.Faker;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import java.util.Locale;
-import java.util.Random;
 import static junit.framework.TestCase.assertTrue;
 
 public class ContactPageSteps extends ContactUsPage {
