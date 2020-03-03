@@ -1,17 +1,17 @@
 # securepay
 
-Backbase Automation
+securepay Automation
 
 Prerequisites :
 
 The following are required to run the tests :
+1) Maven
+2) Jdk 1.8
+3) Junit
+4) Chrome browser
+5) Firefox browser
+6) Cucumber
 
-Maven
-Jdk 1.8
-Junit
-Chrome browser
-Firefox browser (optional)
-Cucumber
 Framework : The framework uses cucumber for BDD scenarios and java(selenium) to define the steps. The tests can be run in firefox or chrome.
 
 Features : The scenario features are written in cucumber. the feature files are stored in the /src/test/features folder.
@@ -24,7 +24,7 @@ Random Data : Faker library is used to provide random data for filling up contac
 
 Execution :
 
-To run individual tests use the particular test tag : ./Backbase/mvn test -Dcucumber.options="--tags @TEST001" -DBROWSER="chrome" 
+To run individual tests use the particular test tag : ./securepay/mvn test -Dcucumber.options="--tags @TEST001" -DBROWSER="chrome" 
 
 This will run the create computer scenario from the securepay.feature file The test will be run in chrome. 
 
